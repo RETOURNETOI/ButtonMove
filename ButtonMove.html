@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Formulaire de connexion</title>
+  <link rel="stylesheet" href="ButtonMove.css" />
+  <script defer src="ButtonMove.js"></script>
+</head>
+<body>
+
+  <div class="login-container">
+    <h2>Connexion</h2>
+    <form id="login-form" action="/submit" method="POST">
+      <input type="email" name="email" placeholder="Votre email" required>
+      <input type="password" name="password" placeholder="Votre mot de passe" required>
+    </form>
+  </div>
+
+  <!-- Le seul bouton de connexion, mobile -->
+  <button id="evil-button">Connexion</button>
+
+</body>
+</html>
